@@ -1,0 +1,58 @@
+.review-card {
+  background-color: #212529;
+  padding-bottom: 3px;
+}
+
+.heading {
+  color: #ffffff;
+  margin-top: 1em !important;
+}
+
+.reviews {
+  margin-top: 20px;
+}
+
+.reviews-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.reviews-container {
+  margin-top: 40px;
+}
+
+.review-form-title {
+  font-size: 22px;
+}
+
+.review-form-textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border: 1px solid rgb(107, 114, 12);
+}
+
+.review-form-btn {
+  position: relative;
+  left: 0.2em;
+  /* right: 1em; */
+  bottom: 0.5em;
+}
+
+.review {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.review-image-container {
+  margin-right: 12px;
+}
+
+.review-image-container img {
+  border-radius: 50px;
+}
+
+.review-content {
+  display: flex;
+}

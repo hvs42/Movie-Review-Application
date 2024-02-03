@@ -1,0 +1,65 @@
+/* .movie-rating {
+  width: 18%;
+  /* display: flex;
+  float: left;
+  margin: 1%;
+  text-align: center;
+}*/
+
+.rating-title {
+  color: #bebbbb;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.rating {
+  position: relative;
+  text-align: center;
+  left: 1em;
+}
+
+.rating-icon {
+  position: absolute;
+  left: 21%;
+}
+
+.rating-val {
+  position: absolute;
+  bottom: 0.2em;
+  right: 1.8em;
+  top: -0.3em;
+  left: 1.5em;
+  color: #c3c1c0;
+  font-size: 1.8em;
+  line-height: 1.4em;
+  margin-left: 1em;
+}
+
+.rated-people {
+  position: absolute;
+  bottom: -2.9em;
+  left: 7em;
+  color: #bebbbb;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.rating-btn {
+  background-color: #212529;
+  color: #2185d0;
+  display: flex;
+  justify-content: center;
+  padding: 0em 2em 0em 2em;
+}
+
+.rating-par {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.rating-btn:hover {
+  border-radius: 2%;
+  background-color: #2f2e2e;
+  cursor: pointer;
+}

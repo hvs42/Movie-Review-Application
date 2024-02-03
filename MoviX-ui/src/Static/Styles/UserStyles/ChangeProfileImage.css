@@ -1,0 +1,45 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+  height: 18em;
+  width: 18em;
+  border-radius: 50%;
+}
+
+.preview-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+}
+
+.change-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.change-image-text {
+  color: #fff;
+  font-size: 18px;
+}
+
+.image-container:hover .change-image-overlay {
+  opacity: 1;
+}
+
+.img-upload-btn {
+  margin-top: 1em;
+  width: 8em;
+  display: block;
+}

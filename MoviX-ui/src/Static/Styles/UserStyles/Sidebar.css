@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px) {
+  /*This will be applied only when width is less than 600px or max 600px*/
+  .sidebar {
+    display: none;
+    width: 80% !important;
+    background: white;
+    height: 100vh;
+    position: fixed;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+  }
+
+  .content {
+    margin-left: 0% !important;
+  }
+}
+
+.user-base {
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  width: 24%;
+  background: #212529;
+  height: auto;
+  padding-top: 45px;
+  z-index: 9999999999;
+  position: relative;
+}
+
+.deactivate {
+  position: absolute;
+  bottom: 2em;
+}
+
+.sidebar a {
+  margin-left: 5%;
+  display: block;
+  width: 90%;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar a:hover {
+  background: white !important;
+  color: #212529;
+}
+
+.sidebar .divider {
+  height: 0.5px;
+  width: 100%;
+  background: #e2e2e2;
+  margin-top: 10px;
+}
+
+.content-base {
+  background-color: #212529;
+  padding-bottom: 2em;
+  min-height: 75vh;
+}
+
+.content {
+  width: 100%;
+}
+
+.active {
+  background: white !important;
+  color: black !important;
+}

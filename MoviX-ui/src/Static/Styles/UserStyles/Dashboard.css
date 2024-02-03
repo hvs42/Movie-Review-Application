@@ -1,0 +1,12 @@
+.profile {
+  background-color: #212529 !important;
+  color: #bebbbb !important;
+  border-radius: 0 !important;
+}
+
+.profile-image {
+  height: 18em;
+  width: 18em;
+  margin-top: 2em;
+  border-radius: 10%;
+}

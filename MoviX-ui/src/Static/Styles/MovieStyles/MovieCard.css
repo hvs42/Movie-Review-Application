@@ -1,0 +1,74 @@
+.mymoviecard {
+  position: relative;
+  height: 250px;
+  border-color: aliceblue;
+  overflow: hidden;
+}
+
+.mymoviecard:hover {
+  cursor: default;
+  box-shadow: 0px 0px 2px 2px rgba(236, 236, 237, 0.77);
+  border-radius: 0.7em;
+}
+
+.movie-card-pic {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.7em;
+}
+
+.movie-card-pic :hover {
+  border: 2px solid aliceblue;
+}
+
+/* hover effect css */
+.movie-card-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(77, 74, 74, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 0.7em;
+}
+
+.mymoviecard:hover .movie-card-details {
+  opacity: 1;
+}
+
+.movie-card-rating {
+  position: absolute;
+  top: 0.3em;
+  right: 0.4em;
+  color: #ffffff;
+}
+
+.movie-card-title {
+  font-size: 1.3em;
+  color: #ffffff;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  right: 5%;
+}
+
+.movie-card-director {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  right: 5%;
+  color: #ffffff;
+}
+
+.movie-card-synopsis {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  right: 5%;
+  color: #ffffff;
+}

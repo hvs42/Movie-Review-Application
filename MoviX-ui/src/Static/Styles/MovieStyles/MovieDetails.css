@@ -1,0 +1,166 @@
+.details {
+  background-color: #212529;
+  padding: 1em 2em;
+}
+
+.movie-title {
+  font-size: 3em !important;
+  color: #ffffff;
+  margin: 0 !important;
+}
+
+.movie-dir {
+  font-size: 1.5em !important;
+  color: #ffffff;
+}
+
+.movie-delete-btn {
+  position: relative;
+  /* top: 65%; */
+  /* right: 2%; */
+  left: 1em;
+  bottom: 1em;
+  width: 20%;
+  max-width: 20em;
+}
+
+.movie-update-btn {
+  position: relative;
+  /* top: 65%; */
+  /* right: 2%; */
+  bottom: 1em;
+  width: 20%;
+  max-width: 20em;
+}
+
+.movie-trailer {
+  width: 100%;
+  height: 50vh;
+}
+
+.main-section {
+  position: relative;
+  height: 60vh;
+}
+
+.movie-image {
+  position: absolute;
+  top: 2%;
+  width: 30%;
+  height: auto;
+  max-height: 60%;
+}
+
+.movie-info {
+  position: absolute;
+  right: 2%;
+  width: 65%;
+  max-height: 60%;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.rating-div {
+  justify-content: center;
+  position: absolute;
+  top: 70%;
+  /* left: 10%; */
+  /* right: 10%; */
+  display: flex;
+  width: 100%;
+}
+
+.movie-rating {
+  color: #ffffff;
+  float: left;
+}
+
+.rating-title {
+  font-size: 1.5em;
+}
+
+.rating {
+  display: flex;
+}
+
+.rating-icon {
+  margin-left: 0.5em;
+  font-size: 2.7em !important;
+}
+
+.rating-val {
+  /* display: inline-block; */
+  margin-right: 1px;
+  font-size: 1.3em;
+}
+
+.rated-people {
+  position: relative;
+  bottom: 1em;
+  left: 5em;
+}
+
+.user-rating {
+  color: #ffffff;
+  float: right;
+  margin-left: 15%;
+}
+
+.rating-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.rating-par {
+  margin-top: 0.3em;
+  font-size: 1.3em;
+}
+
+.rating-btn:hover {
+  border-radius: 2%;
+  background-color: #2f2e2e;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .movie-trailer {
+    width: 73%;
+    /* float: rights; */
+    position: relative;
+    left: 27%;
+    height: 30em;
+  }
+
+  .main-section {
+    position: static;
+  }
+
+  .movie-image {
+    position: relative;
+    top: -30.42em;
+    width: 25%;
+    height: 30em;
+    max-height: fit-content;
+  }
+
+  .movie-info {
+    width: 45%;
+    left: 2%;
+    top: 46em;
+  }
+
+  .rating-div {
+    width: 60%;
+    position: relative;
+    right: -44%;
+    top: -26em;
+  }
+
+  .main-section {
+    height: 40vh;
+  }
+
+  .syn {
+    margin-bottom: 0.5em !important;
+  }
+}

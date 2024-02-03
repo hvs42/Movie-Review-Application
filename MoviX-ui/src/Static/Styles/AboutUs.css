@@ -1,0 +1,15 @@
+.about-content {
+  padding: 2em 5em;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+.about-header {
+  margin-top: 2em !important;
+  /* margin-left: auto !important; */
+  margin-left: 47% !important;
+}
+
+.subhead {
+  margin-left: 3em !important;
+}
